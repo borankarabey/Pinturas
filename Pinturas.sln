@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinturas.API", "Pinturas.API\Pinturas.API.csproj", "{48DC676A-ADA6-43D7-A362-53EB71594ED4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinturas.Web", "Pinturas.Web\Pinturas.Web.csproj", "{30D79BBC-095E-4001-A0F2-5E5AE640B6CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinturas.Business", "Pinturas.Business\Pinturas.Business.csproj", "{69570CEC-BD41-431D-A815-86182E936443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinturas.DataAccess", "Pinturas.DataAccess\Pinturas.DataAccess.csproj", "{F25FDDC1-6BED-4D27-B26E-0468595E1A88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinturas.Dtos", "Pinturas.Dtos\Pinturas.Dtos.csproj", "{E6EE45F7-3F98-41F3-867E-C0827AD53F4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pinturas.Entities", "Pinturas.Entities\Pinturas.Entities.csproj", "{0158A3F5-1D32-405C-AB32-F49B6C5F5724}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48DC676A-ADA6-43D7-A362-53EB71594ED4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DC676A-ADA6-43D7-A362-53EB71594ED4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DC676A-ADA6-43D7-A362-53EB71594ED4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DC676A-ADA6-43D7-A362-53EB71594ED4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D79BBC-095E-4001-A0F2-5E5AE640B6CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D79BBC-095E-4001-A0F2-5E5AE640B6CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D79BBC-095E-4001-A0F2-5E5AE640B6CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D79BBC-095E-4001-A0F2-5E5AE640B6CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69570CEC-BD41-431D-A815-86182E936443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69570CEC-BD41-431D-A815-86182E936443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69570CEC-BD41-431D-A815-86182E936443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69570CEC-BD41-431D-A815-86182E936443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25FDDC1-6BED-4D27-B26E-0468595E1A88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25FDDC1-6BED-4D27-B26E-0468595E1A88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25FDDC1-6BED-4D27-B26E-0468595E1A88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25FDDC1-6BED-4D27-B26E-0468595E1A88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6EE45F7-3F98-41F3-867E-C0827AD53F4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6EE45F7-3F98-41F3-867E-C0827AD53F4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6EE45F7-3F98-41F3-867E-C0827AD53F4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6EE45F7-3F98-41F3-867E-C0827AD53F4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0158A3F5-1D32-405C-AB32-F49B6C5F5724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0158A3F5-1D32-405C-AB32-F49B6C5F5724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0158A3F5-1D32-405C-AB32-F49B6C5F5724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0158A3F5-1D32-405C-AB32-F49B6C5F5724}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBB444E2-071C-4580-8D52-5CD1682B690F}
+	EndGlobalSection
+EndGlobal
