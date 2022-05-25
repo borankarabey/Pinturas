@@ -25,4 +25,7 @@
     <Folder Include="Migrations\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pinturas.Entities\Pinturas.Entities.csproj" />
+  </ItemGroup>
 </Project>
