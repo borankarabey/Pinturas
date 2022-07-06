@@ -38,7 +38,7 @@ namespace Pinturas.Web
 
 
             var connectionString = Configuration.GetConnectionString("db");
-            services.AddDbContext<bootShopDbContext>(opt => opt.UseSqlServer(connectionString));
+            services.AddDbContext<PinturasDbContext>(opt => opt.UseSqlServer(connectionString));
             services.AddAutoMapper(typeof(MapProfile));
             services.AddSession();
 
